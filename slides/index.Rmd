@@ -1,14 +1,14 @@
 ---
 title: "Xaringan example"
 subtitle: "A-State template"
-author: "Joseph V. Casillas"
+author: "Cameron Wimpy"
 date: "Arkansas State University </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["https://www.jvcasillas.com/ru_xaringan/css/rutgers.css", "https://www.jvcasillas.com/ru_xaringan/css/rutgers-fonts.css"]
+    css: ["astate", "astate-fonts"]
     nature:
-      beforeInit: ["https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
+      beforeInit: ["../js/astate_xaringan.js"]
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -64,10 +64,10 @@ ggplot(cars, aes(x = dist, y = speed)) +
   - can be created using "-"
   - and they can be nested using 2 or 4 spaces
 - We can also make `blockquotes`
-  - we can use `<ru-blockquote>text</ru-blockquote>` 
+  - we can use `<astate-blockquote>text</astate-blockquote>` 
   - or `>`
 
-<ru-blockquote>This is a blocked quote</ru-blockquote>
+<astate-blockquote>This is a blocked quote</astate-blockquote>
 
 - Footnotes<sup>1</sup>
 
@@ -113,7 +113,7 @@ class: center, bottom, inverse
 # You only live once!
 
 ---
-background-image: url(http://www.jvcasillas.com/ru_xaringan/img/logo/ru_shield2.png)
+background-image: url(https://raw.githubusercontent.com/cwimpy/astate-xaringan/main/img/logo/astate-logo2.png)
 background-position: 90% 50%
 background-size: 300pt
 
@@ -163,7 +163,7 @@ will make text .grey[grey]
 
 --
 
-We can do this with white, .grey[grey], .black[black], .RUred[red] and .blue[blue]. 
+We can do this with white, .grey[grey], .black[black], .astatered[red] and .blue[blue]. 
 
 --
 
@@ -245,7 +245,7 @@ It is valid R code so you can run it.
 
 ---
 class: middle, bottom
-background-image: url(http://www.jvcasillas.com/ru_xaringan/img/logo/ru_shield.png)
+background-image: url(https://raw.githubusercontent.com/cwimpy/astate-xaringan/main/img/logo/astate-logo.png)
 background-size: contain
 
 ### <grey>You can</grey>  
@@ -283,7 +283,7 @@ remark.macros.scale = function (percentage) {
 
 ---
 
-# RU stuff
+# A-State stuff
 
 ### General
 
@@ -295,7 +295,7 @@ remark.macros.scale = function (percentage) {
 
 ### Sections
 
-- We can create section dividers with RU red and grey by using the `class` call:
+- We can create section dividers with A-State red and grey by using the `class` call:
 
 ```md
 class: title-slide-section-red
@@ -310,7 +310,7 @@ class: title-slide-section-grey
 ---
 class: title-slide-section-red
 
-# RU red section divider
+# A-State red section divider
 
 ### This is the H3 font color
 
@@ -325,7 +325,7 @@ class: title-slide-section-red
 ---
 class: title-slide-section-grey
 
-# RU grey section divider
+# A-State grey section divider
 
 ### This is the H3 font color
 
@@ -373,8 +373,8 @@ background-position: 90% 8%
 
 ---
 class: title-slide-final, middle
-background-image: url(https://github.com/jvcasillas/ru_xaringan/raw/master/img/logo/ru_shield.png)
-background-size: 55px
+background-image: url(https://raw.githubusercontent.com/cwimpy/astate-xaringan/main/img/logo/astate-logo.png)
+background-size: 95px
 background-position: 9% 15%
 
 # Thanks!
@@ -387,8 +387,8 @@ Here is an example:
 
 |                                                                                                            |                                   |
 | :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
-| <a href="mailto:joseph.casillas@rutgers.edu">.RUred[<i class="fa fa-paper-plane fa-fw"></i>]               | joseph.casillas@rutgers.edu       |
-| <a href="http://www.jvcasillas.com/ru_xaringan/slides/index.html">.RUred[<i class="fa fa-link fa-fw"></i>] | jvcasillas.com/ru_xaringan/slides |
-| <a href="http://twitter.com/jvcasill">.RUred[<i class="fa fa-twitter fa-fw"></i>]                          | @jvcasill                         |
-| <a href="http://github.com/jvcasillas">.RUred[<i class="fa fa-github fa-fw"></i>]                          | @jvcasillas                       |
+| <a href="mailto:cwimpy@astate.edu">.astatered[<i class="fa fa-paper-plane fa-fw"></i>]                         | cwimpy@astate.edu                 |
+| <a href="http://cwimpy.com">.astatered[<i class="fa fa-link fa-fw"></i>]                                       | cwimpy.com                        |
+| <a href="http://twitter.com/camwimpy">.astatered[<i class="fa fa-twitter fa-fw"></i>]                          | @camwimpy                         |
+| <a href="http://github.com/cwimpy">.astatered[<i class="fa fa-github fa-fw"></i>]                              | @cwimpy                           |
 
