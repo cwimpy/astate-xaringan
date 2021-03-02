@@ -10,7 +10,7 @@ Minimalist xaringan theme for html presentations using A-State style/colors. I b
 
 Place the `astate.css` and `astate-fonts.css` files in your `xaringan` distribution and use the YAML header below to create a presentation. 
 
----
+```
 title: "Title here"
 subtitle: "Sub-title here"
 author: "Your Name"
@@ -25,4 +25,4 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
----
+```
