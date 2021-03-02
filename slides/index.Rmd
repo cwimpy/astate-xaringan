@@ -385,8 +385,8 @@ background-position: 9% 15%
 
 Here is an example:  
 
-|                                                                                                            |                                   |
-| :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+|                                                                                                                |                                   |
+| :------------------------------------------------------------------------------------------------------------- | :-------------------------------- |
 | <a href="mailto:cwimpy@astate.edu">.astatered[<i class="fa fa-paper-plane fa-fw"></i>]                         | cwimpy@astate.edu                 |
 | <a href="http://cwimpy.com">.astatered[<i class="fa fa-link fa-fw"></i>]                                       | cwimpy.com                        |
 | <a href="http://twitter.com/camwimpy">.astatered[<i class="fa fa-twitter fa-fw"></i>]                          | @camwimpy                         |
